@@ -2,9 +2,13 @@
 module.exports = {
   content: ['./src/components/**/*.tsx', './src/pages/**/*.tsx'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        interRegular: ['Inter Regular'],
+        foundersGrotesk: ['Founders Grotesk'],
+        interBold: ['Inter Bold'],
+      },
+    },
   },
-  plugins: [
-    require('@tailwindcss/forms')
-  ],
+  plugins: [require('@tailwindcss/forms')],
 };

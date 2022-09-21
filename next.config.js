@@ -3,8 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['lh3.googleusercontent.com'],
+    domains: ['lh3.googleusercontent.com', 'tailwindui.com'],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
